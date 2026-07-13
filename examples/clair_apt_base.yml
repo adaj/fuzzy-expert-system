@@ -1,0 +1,632 @@
+inputs:
+- name: L1_DOM
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.3310999944806099
+    - 0.522599995136261
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.1395999938249588
+    - 0.3310999944806099
+    - 0.7233499884605408
+    - 0.9240999817848206
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.522599995136261
+    - 0.7233499884605408
+    - 1
+    - 1
+- name: L1_COO
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.226950004696846
+    - 0.3862000107765198
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.06769999861717224
+    - 0.226950004696846
+    - 0.6461000144481659
+    - 0.906000018119812
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.3862000107765198
+    - 0.6461000144481659
+    - 1
+    - 1
+- name: L1_OFF
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.24964999593794346
+    - 0.44929999113082886
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.05000000074505806
+    - 0.24964999593794346
+    - 0.6875
+    - 0.9257000088691711
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.44929999113082886
+    - 0.6875
+    - 1
+    - 1
+- name: L2C_IN
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.28195000998675823
+    - 0.5249000191688538
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.039000000804662704
+    - 0.28195000998675823
+    - 0.7292500138282776
+    - 0.9336000084877014
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.5249000191688538
+    - 0.7292500138282776
+    - 1
+    - 1
+- name: L2C_AR
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.16170000284910202
+    - 0.2847000062465668
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.03869999945163727
+    - 0.16170000284910202
+    - 0.5822500139474869
+    - 0.879800021648407
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.2847000062465668
+    - 0.5822500139474869
+    - 1
+    - 1
+- name: L2C_AI
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.23969999887049198
+    - 0.4681999981403351
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.01119999960064888
+    - 0.23969999887049198
+    - 0.7158500105142593
+    - 0.9635000228881836
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.4681999981403351
+    - 0.7158500105142593
+    - 1
+    - 1
+- name: L2C_AM
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.10145000088959932
+    - 0.1770000010728836
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.02590000070631504
+    - 0.10145000088959932
+    - 0.541549988090992
+    - 0.9060999751091003
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.1770000010728836
+    - 0.541549988090992
+    - 1
+    - 1
+- name: L2C_NOS
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.2358500026166439
+    - 0.43160000443458557
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.04010000079870224
+    - 0.2358500026166439
+    - 0.6893000155687332
+    - 0.9470000267028809
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.43160000443458557
+    - 0.6893000155687332
+    - 1
+    - 1
+- name: TSIM
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.0558
+    - 0.1057
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.0059
+    - 0.0558
+    - 0.196
+    - 0.2863
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.1057
+    - 0.196
+    - 1
+    - 1
+- name: TACC
+  range:
+  - 0
+  - 1
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 0.35535000000000005
+    - 0.5116
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 0.1991
+    - 0.35535000000000005
+    - 0.7179
+    - 0.9242
+  - name: high
+    fn: trapmf
+    abcd:
+    - 0.5116
+    - 0.7179
+    - 1
+    - 1
+- name: PACE
+  range:
+  - 0
+  - 169
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 0
+    - 0
+    - 28.38055
+    - 54.9557
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 1.8054
+    - 28.38055
+    - 96.107
+    - 137.2583
+  - name: high
+    fn: trapmf
+    abcd:
+    - 54.9557
+    - 96.107
+    - 169
+    - 169
+- name: TIME
+  range:
+  - 1
+  - 5204
+  terms:
+  - name: low
+    fn: trapmf
+    abcd:
+    - 1
+    - 1
+    - 600
+    - 700
+  - name: medium
+    fn: trapmf
+    abcd:
+    - 500
+    - 600
+    - 800
+    - 900
+  - name: high
+    fn: trapmf
+    abcd:
+    - 700
+    - 800
+    - 5204
+    - 5204
+outputs:
+- name: build_on_prior_knowledge
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: expand_reasoning
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: agree_disagree
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: linking_contributions
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: recapping
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: example
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: rephrasing
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+- name: add_on
+  range:
+  - 0
+  - 1
+  terms:
+  - name: active
+    fn: trimf
+    abc:
+    - 0
+    - 1
+    - 1
+  - name: not_active
+    fn: trimf
+    abc:
+    - 0
+    - 0
+    - 1
+rules:
+- name: build_on_prior_knowledge__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L2C_IN:
+    - high
+    L2C_AR:
+    - high
+    TSIM:
+    - medium
+    TACC:
+    - low
+    TIME:
+    - high
+    - medium
+  consequent:
+    build_on_prior_knowledge: active
+- name: expand_reasoning__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L2C_IN:
+    - high
+    L2C_AR:
+    - high
+    - medium
+    TSIM:
+    - high
+    - medium
+    TACC:
+    - medium
+    - low
+  consequent:
+    expand_reasoning: active
+- name: agree_disagree__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L1_COO:
+    - high
+    L2C_AR:
+    - high
+    - medium
+    TSIM:
+    - medium
+    - not low
+    TACC:
+    - high
+    - medium
+    - not low
+  consequent:
+    agree_disagree: active
+- name: linking_contributions__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L2C_IN:
+    - high
+    L2C_AR:
+    - medium
+    TSIM:
+    - medium
+    TACC:
+    - high
+  consequent:
+    linking_contributions: active
+- name: recapping__rule0
+  antecedents:
+    L1_DOM:
+    - not high
+    - medium
+    - low
+    L2C_AR:
+    - not high
+    TSIM:
+    - low
+    TIME:
+    - high
+  consequent:
+    recapping: active
+- name: example__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L2C_AR:
+    - high
+    TSIM:
+    - medium
+    TACC:
+    - medium
+    - low
+  consequent:
+    example: active
+- name: rephrasing__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L2C_AR:
+    - high
+    TSIM:
+    - high
+    TACC:
+    - high
+  consequent:
+    rephrasing: active
+- name: add_on__rule0
+  antecedents:
+    L1_DOM:
+    - high
+    L1_COO:
+    - high
+    L2C_AR:
+    - high
+    TSIM:
+    - high
+    - medium
+    - not low
+    TACC:
+    - high
+  consequent:
+    add_on: active
+- name: no_action_L1
+  antecedents:
+    L1_OFF:
+    - high
+    - medium
+  consequent:
+    build_on_prior_knowledge: not_active
+    expand_reasoning: not_active
+    agree_disagree: not_active
+    linking_contributions: not_active
+    recapping: not_active
+    example: not_active
+    rephrasing: not_active
+    add_on: not_active
+- name: no_action_question
+  antecedents:
+    L2C_AI:
+    - high
+    - medium
+  consequent:
+    build_on_prior_knowledge: not_active
+    expand_reasoning: not_active
+    agree_disagree: not_active
+    linking_contributions: not_active
+    recapping: not_active
+    example: not_active
+    rephrasing: not_active
+    add_on: not_active
+- name: no_action_L2C
+  antecedents:
+    L2C_AM:
+    - high
+    - medium
+    - not low
+    L2C_NOS:
+    - high
+    - medium
+    - not low
+  consequent:
+    build_on_prior_knowledge: not_active
+    expand_reasoning: not_active
+    agree_disagree: not_active
+    linking_contributions: not_active
+    recapping: not_active
+    example: not_active
+    rephrasing: not_active
+    add_on: not_active
+- name: no_action_PACE
+  antecedents:
+    PACE:
+    - high
+  consequent:
+    build_on_prior_knowledge: not_active
+    expand_reasoning: not_active
+    agree_disagree: not_active
+    linking_contributions: not_active
+    recapping: not_active
+    example: not_active
+    rephrasing: not_active
+    add_on: not_active
